@@ -1,3 +1,4 @@
+# .env
 MUMBAI_PRIVATE_KEY = ""
 
 ALCHEMY_MUMBAI_API_KEY =""
