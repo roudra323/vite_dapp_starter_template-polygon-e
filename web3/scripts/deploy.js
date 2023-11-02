@@ -12,8 +12,7 @@ async function main() {
   // console.log("*" * 10);
   // console.log("Contract address:", await contractSUM.getAddress());
 
-//add wait here
-
+  //add wait here
 
   const contractDIV = await ethers.deployContract("Div");
 
