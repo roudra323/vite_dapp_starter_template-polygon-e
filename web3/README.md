@@ -1,13 +1,25 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+# .env
+MUMBAI_PRIVATE_KEY = ""
 
-Try running some of the following tasks:
+ALCHEMY_MUMBAI_API_KEY =""
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+OWNER_ADDRESS = ""
+
+VITE_CONTRACT_ADDRESS_SUM = ""
+
+VITE_CONTRACT_ADDRESS_DIV = ""
+
+POLYGONSCAN_API_KEY = ""
+
+VITE_RAINBOWKIT_KEY = ""
+
+VITE_WEB3STORAGE_KEY = ""
+
+
+
+# Deploy smart contract
+`npx hardhat run --network mumbai scripts/deploy.js`
+
+# Verify smart contract
+`npx hardhat verify CONTRACT_ADDR --network mumbai`
